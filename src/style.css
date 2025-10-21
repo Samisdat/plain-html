@@ -1,12 +1,35 @@
 body {
   margin: 0;
+  font-family: "Roboto", sans-serif;
+  background: lightgrey;
 }
 
-.container {
+.grid {
   display: flex;
-  background: lime;
+  gap: 50px;
 }
-.container .item {
-  background: blue;
-  color: #fff;
+
+.simon-card {
+  background: #ffe802;
+}
+
+ul {
+  background: #fff;
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding: 0px 5px;
+  margin: 0px;
+  align-items: center;
+}
+ul li {
+  padding: 37px 20px;
+  border-top: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  font-weight: bold;
+  margin: 0px;
+}
+ul li.active {
+  color: #8f1cd6;
+  border-bottom: 3px solid #8f1cd6;
 }
