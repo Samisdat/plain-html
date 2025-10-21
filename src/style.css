@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  background: lime;
+}
+.container .item {
+  background: blue;
+  color: #fff;
+}
