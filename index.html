@@ -5,26 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>drecks-flex</title>
   </head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet"
+  />
   <style>
     @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
   </style>
   <body>
     <div class="grid">
       <img src="card.jpeg" />
+
       <div class="simon-card">
-        <ul>
+        <ul class="tabs">
           <li class="active">TARIF</li>
           <li>FREUNDE WERBEN</li>
           <li>HILFE & SUPPORT</li>
         </ul>
-        <p>Dein günstiger Handytarif</p>
+
+        <h1><span>Dein günstiger</span><span> Handytarif</span></h1>
 
         <p>SIMon mobile - flexibel wechseln</p>
 
-        <p>✔ Allnet-Flat</p>
-        <p>✔ Monatlich kündbar</p>
-        <p>✔ Top D-Netz inkl. 5G</p>
-        <p>✔ Bis zu 150 Mbit/s Speed</p>
+        <ul class="checkmarks">
+          <li>Allnet-Flat</li>
+          <li>Monatlich kündbar</li>
+          <li>Top D-Netz inkl. 5G</li>
+          <li>Bis zu 150 Mbit/s Speed</li>
+        </ul>
       </div>
     </div>
     <script type="module" src="/src/main.ts"></script>
