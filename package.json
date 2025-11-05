@@ -1,5 +1,6 @@
 {
-  "name": "my-app",
+  "name": "plain-html",
+  "description": "Das ist nicht mehr so plain ;)",
   "version": "0.1.0",
   "private": true,
   "scripts": {
