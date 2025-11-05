@@ -1,0 +1,58 @@
+#navi #menu {
+    width: 250px;
+    height: fit-content;
+    border: none;
+    padding: 0;
+    margin: 0;
+    left: auto;
+    background: limegreen;
+    display: none;
+    &:popover-open {
+        display: block;
+        }
+}
+
+#navi svg{
+    stroke: currentColor;
+    width: 30px;
+    height: 30px;
+    display: block;
+    &{
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 8;
+        fill: none;
+    }
+}
+#navi .menu-btn {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+}
+
+#navi .close-btn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: none;
+    border: none;
+}
+
+#navi ul {
+    display: grid;
+    gap: 1rem;
+    padding: 0;
+    margin: 3.5rem 0 0 2rem;
+}
+
+.sr-only:not(:focus):not(:active) {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
