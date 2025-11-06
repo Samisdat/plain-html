@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background: lightgrey;
+}
+
+.grid {
+  display: flex;
+  gap: 50px;
+}
+
+.simon-card {
+  background: #ffe802;
+  width: 580px;
+}
+
+.simon-card ul.tabs {
+  background: #fff;
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding: 0px 5px;
+  margin: 0px;
+  align-items: center;
+}
+.simon-card ul.tabs li {
+  padding: 36px 20px;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  font-weight: bold;
+  margin: 0px;
+}
+.simon-card ul.tabs li.active {
+  color: #8f1cd6;
+  border-bottom: 5px solid #8f1cd6;
+}
+
+.simon-card h1 {
+  margin-top: 96px;
+  font-size: 52px;
+  font-weight: bold;
+  font-family: "Rubik", sans-serif;
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: center;
+}
+.simon-card h1 span {
+  background: #8f1cd6;
+  color: #fff;
+  padding: 5px 10px;
+  line-height: 70px;
+  width: fit-content;
+  display: inline-block;
+}
+
+.simon-card p,
+.simon-card ul.checkmarks {
+  font-size: 24px;
+}
+
+.simon-card ul.checkmarks ::marker {
+  content: "✔ ";
+  font-size: 1.2em;
+  color: #8f1cd6;
+}
